@@ -29,6 +29,6 @@ VALIDATE $? "Instaling mysql"
 
 yum install git -y
 
-VALIDATE $? "Instaling mysql"
+VALIDATE $? "Instaling git"
 
 
