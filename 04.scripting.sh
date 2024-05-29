@@ -10,7 +10,7 @@ else
     echo "its  a root user"
 fi
 
-yum install mysql -y
+yum install mysqllsll -y
 
 if [ $? -ne 0 ]
 then 
