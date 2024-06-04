@@ -13,3 +13,5 @@ do
         message+="High disk usage on $Partition: $usage"
     fi
 done <<< $DISK_USAGE
+
+echo "message: $message"
