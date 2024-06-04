@@ -15,3 +15,5 @@ do
 done <<< $DISK_USAGE
 
 echo "message: $message"
+
+echo "$message" | mail -s "HIGH DISK USAGE" mittagadapalapalson@gmail.com
